@@ -1,0 +1,20 @@
+2022-12-08 17:22:32 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\server.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2022-12-08 17:22:32 - Started 49988
+2022-12-09 08:32:14 - Stopping nodebasicserver.exe
+2022-12-09 08:32:14 - ProcessKill 49988
+2022-12-09 08:32:14 - Found child process: 43436 Name: conhost.exe
+2022-12-09 08:32:14 - Found child process: 51844 Name: node.exe
+2022-12-09 08:32:15 - Stopping process 43436
+2022-12-09 08:32:15 - Send SIGINT 43436
+2022-12-09 08:32:15 - SIGINT to 43436 failed - Killing as fallback
+2022-12-09 08:32:15 - Stopping process 51844
+2022-12-09 08:32:15 - Send SIGINT 51844
+2022-12-09 08:32:15 - SIGINT to 51844 failed - Killing as fallback
+2022-12-09 08:32:15 - Stopping process 49988
+2022-12-09 08:32:15 - Send SIGINT 49988
+2022-12-09 08:32:15 - SIGINT to 49988 failed - Killing as fallback
+2022-12-09 08:32:15 - Finished nodebasicserver.exe
+2023-01-26 19:28:16 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\server.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-26 19:28:18 - Started 9104
+2023-01-31 17:25:41 - Starting C:\Program Files\nodejs\node.exe  --harmony "C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\node-windows\lib\wrapper.js" --file "C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\server.js" --scriptoptions= --log "nodeBasicServer wrapper" --grow 0.25 --wait 1 --maxrestarts 3 --abortonerror n --stopparentfirst undefined
+2023-01-31 17:25:43 - Started 8504

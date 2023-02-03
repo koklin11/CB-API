@@ -12,10 +12,10 @@ app.use(upload.array());
 //Require the Router we defined in movies.js
 // Import routes
 const authRouter = require("./routes/auth");
-var movies = require('./movies.js');
+var CBAPI = require('./routes/CBAPI.js');
 
 //Use the Router on the sub route /movies
 app.use("/api/auth", authRouter);
-app.use('/movies', movies);
+app.use('/CBAPI', CBAPI);
 
 app.listen(3000);

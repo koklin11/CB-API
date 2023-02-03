@@ -1,0 +1,31 @@
+<service>
+	<id>nodebasicserver.exe</id>
+	<name>nodeBasicServer</name>
+	<description>CB API</description>
+	<executable>C:\Program Files\nodejs\node.exe</executable>
+	<argument>--harmony</argument>
+	<argument>C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\node-windows\lib\wrapper.js</argument>
+	<argument>--file</argument>
+	<argument>C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\server.js</argument>
+	<argument>--scriptoptions=</argument>
+	<argument>--log</argument>
+	<argument>nodeBasicServer wrapper</argument>
+	<argument>--grow</argument>
+	<argument>0.25</argument>
+	<argument>--wait</argument>
+	<argument>1</argument>
+	<argument>--maxrestarts</argument>
+	<argument>3</argument>
+	<argument>--abortonerror</argument>
+	<argument>n</argument>
+	<argument>--stopparentfirst</argument>
+	<argument>undefined</argument>
+	<logmode>rotate</logmode>
+	<stoptimeout>30sec</stoptimeout>
+	<serviceaccount>
+		<domain>JOELIM-LT</domain>
+		<user>LocalSystem</user>
+		<password></password>
+	</serviceaccount>
+	<workingdirectory>C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API</workingdirectory>
+</service>

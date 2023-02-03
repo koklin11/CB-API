@@ -1,0 +1,165 @@
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: read ECONNRESET
+    at TCP.onStreamRead (node:internal/stream_base_commons:217:20)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:236:12)
+    at Connection._handleFatalError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:167:10)
+    at Connection._handleNetworkError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:180:10)
+    at Socket.emit (node:events:513:28)
+    at emitErrorNT (node:internal/streams/destroy:151:8)
+    at emitErrorCloseNT (node:internal/streams/destroy:116:3)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  errno: -4077,
+  code: 'ECONNRESET',
+  syscall: 'read',
+  fatal: true
+}
+
+Node.js v18.11.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ETIMEDOUT
+    at Connection._handleTimeoutError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:189:17)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:236:12)
+    at Connection._handleFatalError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:167:10)
+    at Connection._handleNetworkError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:180:10)
+    at Connection._handleTimeoutError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:193:10)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+
+Node.js v18.11.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ETIMEDOUT
+    at Connection._handleTimeoutError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:189:17)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:236:12)
+    at Connection._handleFatalError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:167:10)
+    at Connection._handleNetworkError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:180:10)
+    at Connection._handleTimeoutError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:193:10)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+
+Node.js v18.11.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: connect ETIMEDOUT
+    at Connection._handleTimeoutError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:189:17)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7)
+Emitted 'error' event on Connection instance at:
+    at Connection._notifyError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:236:12)
+    at Connection._handleFatalError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:167:10)
+    at Connection._handleNetworkError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:180:10)
+    at Connection._handleTimeoutError (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\mysql2\lib\connection.js:193:10)
+    at listOnTimeout (node:internal/timers:564:17)
+    at process.processTimers (node:internal/timers:507:7) {
+  errorno: 'ETIMEDOUT',
+  code: 'ETIMEDOUT',
+  syscall: 'connect',
+  fatal: true
+}
+
+Node.js v18.11.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES: permission denied 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:21)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\server.js:21:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1512:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EACCES',
+  errno: -4092,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+
+Node.js v18.11.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES: permission denied 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:21)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\server.js:21:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1512:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EACCES',
+  errno: -4092,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+
+Node.js v18.11.0
+node:events:491
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EACCES: permission denied 0.0.0.0:3000
+    at Server.setupListenHandle [as _listen2] (node:net:1468:21)
+    at listenInCluster (node:net:1533:12)
+    at Server.listen (node:net:1621:7)
+    at Function.listen (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\node_modules\express\lib\application.js:635:24)
+    at Object.<anonymous> (C:\Users\joelim\Documents\joelim\TAISIN\Node\CB API\server.js:21:5)
+    at Module._compile (node:internal/modules/cjs/loader:1159:14)
+    at Module._extensions..js (node:internal/modules/cjs/loader:1213:10)
+    at Module.load (node:internal/modules/cjs/loader:1037:32)
+    at Module._load (node:internal/modules/cjs/loader:878:12)
+    at Function.executeUserEntryPoint [as runMain] (node:internal/modules/run_main:81:12)
+Emitted 'error' event on Server instance at:
+    at emitErrorNT (node:net:1512:8)
+    at process.processTicksAndRejections (node:internal/process/task_queues:82:21) {
+  code: 'EACCES',
+  errno: -4092,
+  syscall: 'listen',
+  address: '0.0.0.0',
+  port: 3000
+}
+
+Node.js v18.11.0
